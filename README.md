@@ -1,3 +1,2 @@
 # Loan-Approval-Predictor
-This project predicts whether a person should be given a loan or not.
-It uses two approaches, one via XGBoost model and another via regression model.
+I worked on a loan eligibility prediction project where the goal was to determine whether a person qualifies for a loan based on their financial and demographic information. I implemented two approaches: an XGBoost classification model for high-accuracy predictions, and a regression-based model to provide a comparative baseline. The models were trained and evaluated using real-world loan application datasets.
