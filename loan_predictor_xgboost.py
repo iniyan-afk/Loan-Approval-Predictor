@@ -30,7 +30,6 @@ def objective(trial):
         'learning_rate' : trial.suggest_float('learning_rate', 0.01, 0.3),
         'min_child_weight': trial.suggest_float('min_child_weight', 1, 20),
         'subsample': trial.suggest_float('subsample', 0.5, 1),
-        'eta':trial.suggest_float('eta', 0.01, 10),
         'reg_lambda':trial.suggest_float('reg_lambda', 30, 100),
         'reg_alpha':trial.suggest_float('reg_alpha', 1, 10),
         'max_leaves' : trial.suggest_int('max_leaves', 1, 10),
